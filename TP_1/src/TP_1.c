@@ -76,7 +76,7 @@ int main(void)
 					}
 				break;
 				case 3:
-					if(precioVueloAerolineas != 0 && precioVueloLatam != 0)
+					if(precioVueloAerolineas != 0 && precioVueloLatam != 0 && kilometrajeVuelo != 0)
 					{
 						printf("Calcular todos los costos: \n"
 								"a- Tarjeta de débito (descuento 10 porciento) \n"
@@ -98,9 +98,8 @@ int main(void)
 					}
 					else
 					{
-						printf("ERROR, No se han ingresado los precios de los vuelos, por lo que no se puede calcular los costos. \n");
+						printf("ERROR, No se han ingresado los precios de los vuelos o los kilometros del mismo, por lo que no se puede calcular los costos. \n");
 					}
-
 
 					switch(costoACalcularElegido)
 					{
@@ -130,7 +129,7 @@ int main(void)
 					}
 				break;
 				case 4:
-					if(precioVueloAerolineas != 0 && precioVueloLatam != 0)
+					if(precioVueloAerolineas != 0 && precioVueloLatam != 0 && kilometrajeVuelo != 0)
 					{
 						printf("KMs Ingresados: %.2f"
 								"\n Latam: \n"
@@ -148,7 +147,7 @@ int main(void)
 					}
 					else
 					{
-						printf("ERROR, No se han ingresado los precios de los vuelos, por lo que no se puede calcular los costos. \n");
+						printf("ERROR, No se han ingresado los precios de los vuelos o los kilometros del mismo, por lo que no se puede calcular los costos. \n");
 					}
 				break;
 				case 5:
